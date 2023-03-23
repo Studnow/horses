@@ -13,14 +13,14 @@ function handlebarsOverride(options) {
 }
 
 export default defineConfig({
-  base: "/vite3-starter/", // for deploy to gh-pages base = outDir
+  base: "/horses/", // for deploy to gh-pages base = outDir
   build: {
-    outDir: "vite3-starter",
+    outDir: "horses",
   },
   plugins: [
     handlebarsOverride({
       context: {
-        title: "Handlebars",
+        title: "Horses",
       },
       partialDirectory: [
         resolve(__dirname, "./src/partials"),
