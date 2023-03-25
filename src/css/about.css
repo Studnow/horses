@@ -1,0 +1,20 @@
+.about {
+  @apply max-w-screen-xmd mx-auto;
+}
+
+.block-content {
+  @apply flex place-items-center;
+}
+
+.about-content {
+  @apply prose px-4;
+}
+.about-content h3 {
+  @apply text-accent text-3xl;
+}
+.about-content span {
+  @apply font-semibold;
+}
+.about-pros {
+  @apply grid grid-cols-2 gap-x-4;
+}

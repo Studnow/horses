@@ -1,0 +1,64 @@
+<div class="clients-gallery">
+  <h2 class="block-title">Наши посетители</h2>
+  <div class="clients-slider swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide" data-masonry='{"columnWidth": 20, "itemSelector": ".slide-pic", "gutter": 14}'>
+        {{>picture imgClass="sl-pic" picClass="slide-pic w-[56%]"
+        setPath="/assets/img/mid/clients/clients-gallery/cli10.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli10.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[40%]" setPath="/assets/img/mid/clients/clients-gallery/cli9.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli9.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[45%]" setPath="/assets/img/mid/clients/clients-gallery/cli6.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli6.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[50%]" setPath="/assets/img/mid/clients/clients-gallery/cli5.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli5.jpg"}}
+      </div>
+      <div class="swiper-slide" data-masonry='{"columnWidth": 20, "itemSelector": ".slide-pic", "gutter": 10}'>
+        {{>picture imgClass="sl-pic" picClass="slide-pic w-[45%]"
+        setPath="/assets/img/mid/clients/clients-gallery/cli8.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli8.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[51%]" setPath="/assets/img/mid/clients/clients-gallery/cli4.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli4.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[65%]" setPath="/assets/img/mid/clients/clients-gallery/cli7.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli7.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[34%]" setPath="/assets/img/mid/clients/clients-gallery/cli3.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli3.jpg"}}
+      </div>
+      <div class="swiper-slide" data-masonry='{"columnWidth": 20, "itemSelector": ".slide-pic", "gutter": 10}'>
+        {{>picture imgClass="sl-pic" picClass="slide-pic w-[39%]"
+        setPath="/assets/img/mid/clients/clients-gallery/cli1.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli1.jpg"}} {{>picture imgClass="sl-pic" picClass="slide-pic
+        w-[58%]" setPath="/assets/img/mid/clients/clients-gallery/cli2.webp"
+        srcPath="/assets/img/mid/clients/clients-gallery/cli2.jpg"}}
+      </div>
+    </div>
+    <div class="gallery-nav-bot">
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="slider-nav btn-left swiper-button-prev">
+        <svg width="9" height="15" viewBox="0 0 9 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.27231 7.5L9 1.6664L7.36385 0L0 7.5L7.36385 15L9 13.3336L3.27231 7.5Z" fill="currentColor" />
+        </svg>
+      </div>
+      <div class="slider-nav btn-right swiper-button-next">
+        <svg width="9" height="15" viewBox="0 0 9 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.72769 7.5L0 1.6664L1.63615 0L9 7.5L1.63615 15L0 13.3336L5.72769 7.5Z" fill="currentColor" />
+        </svg>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    {{!-- <div class="swiper-button-prev slider-nav">
+      <svg width="9" height="15" viewBox="0 0 9 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3.27231 7.5L9 1.6664L7.36385 0L0 7.5L7.36385 15L9 13.3336L3.27231 7.5Z" fill="currentColor" />
+      </svg>
+    </div>
+    <div class="swiper-button-next slider-nav">
+      <svg width="9" height="15" viewBox="0 0 9 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.72769 7.5L0 1.6664L1.63615 0L9 7.5L1.63615 15L0 13.3336L5.72769 7.5Z" fill="currentColor" />
+      </svg>
+    </div> --}}
+  </div>
+</div>

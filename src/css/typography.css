@@ -3,7 +3,10 @@
 }
 
 .block-title {
-  @apply text-4xl font-semibold text-slate-600 text-center;
+  @apply text-3xl font-semibold text-center my-4;
+}
+.block-subtitle {
+  @apply text-xl font-normal text-center my-8;
 }
 .footnote {
   @apply text-sm;

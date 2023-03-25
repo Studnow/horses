@@ -1,0 +1,6 @@
+.advantages {
+  @apply flex flex-col max-w-screen-xmd mx-auto py-8;
+}
+.card .card-body {
+  @apply px-2;
+}

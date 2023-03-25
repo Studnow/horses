@@ -1,5 +1,5 @@
 .foot {
-  @apply p-10 bg-accent bg-no-repeat bg-cover text-base-100 flex flex-col gap-8;
+  @apply p-10 bg-neutral bg-no-repeat bg-cover text-base-100 flex flex-col gap-8;
 }
 
 .navbar-bot {

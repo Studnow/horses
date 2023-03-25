@@ -1,5 +1,10 @@
 @import url(./css/footer.css);
 @import url(./css/typography.css);
+@import url(./css/header.css);
+@import url(./css/about.css);
+@import url(./css/advantages.css);
+@import url(./css/ways.css);
+@import url(./css/clients-gallery.css);
 /* @import url(./sass/mixins.sass); */
 
 @tailwind base;
@@ -19,11 +24,23 @@
 
 html,
 body {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   margin: 0;
   height: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Philosopher, arial;
+}
+
+/* h1 {
+  @apply mb-5 text-5xl font-bold;
+} */
 #app,
 .app {
   width: 100%;
@@ -33,27 +50,38 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .content {
   flex: 1 1 auto;
   position: relative;
+  /* @apply max-w-screen-xmd mx-auto; */
 }
-.common-button {
-  /* background: rgb(2, 0, 36); */
-  background: linear-gradient(90deg, rgba(255, 200, 62, 1) 0%, rgba(255, 200, 62, 1) 0%, rgba(255, 115, 71, 1) 100%);
-  @apply btn btn-accent;
+
+.btn-gradient {
+  @apply btn btn-lg btn-wide text-primary-content bg-gradient-to-b from-primary to-secondary hover:to-[#FFB800] active:bg-gradient-to-t shadow-md active:shadow-sm border-transparent hover:border-transparent font-sans font-semibold;
+}
+
+.slider-nav {
+  @apply btn !btn-circle !text-primary-content bg-gradient-to-b from-primary to-secondary hover:to-[#FFB800] active:bg-gradient-to-t shadow-md active:shadow-sm border-transparent hover:border-transparent font-sans font-semibold;
+}
+.btn-right {
+  @apply !-top-[25%] !right-1/3 absolute z-20;
+}
+.btn-left {
+  @apply !-top-[25%] !left-1/3 absolute z-20;
 }
 .cards {
-  @apply flex flex-col gap-4 lg:flex-row justify-between md:gap-4 lg:gap-14 max-w-screen-xl;
+  @apply flex flex-col gap-4 lg:flex-row justify-between md:gap-4 lg:gap-4 mx-auto my-6;
 }
+
 /* .header, .footer, .ways, .offers, .faq, .clients, .advantages, .about {
   @apply container mx-auto;
 } */
 .text-mid {
   @apply text-xl sm:text-2xl text-center sm:text-left lg:w-3/4 xl:w-full;
 }
+
 .header {
-  @apply bg-primary;
-}
-.hero {
-  background-image: url(/assets/img/top/bg/waterfall.png);
+  background-image: url(/assets//img/top/bg/bg-head/bg-head.webp);
+  @apply bg-primary min-h-[90vh] bg-no-repeat bg-cover bg-center;
 }

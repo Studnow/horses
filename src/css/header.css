@@ -1,0 +1,18 @@
+.header {
+  @apply uppercase;
+}
+.header .menu__item {
+  @apply text-sm font-semibold;
+}
+.header .navbar {
+  @apply max-w-screen-xmd mx-auto;
+}
+.hero-horses {
+  @apply justify-start items-center max-w-screen-xmd mx-auto mt-24 prose;
+}
+.hero-horses p {
+  @apply ml-8 max-w-lg;
+}
+.hero-block {
+  @apply flex-col justify-start max-w-2xl pr-4;
+}
