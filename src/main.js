@@ -12,7 +12,9 @@ import "swiper/css/grid";
 const clientsGallery = new Swiper(".clients-slider", {
   modules: [Navigation, Pagination, Grid, FreeMode],
   freeMode: true,
-  slidesPerView: 1.5,
+  slidesPerView: 1.3,
+  initialSlide: 0,
+  centeredSlides: true,
   // grid: {
   //   fill: "row",
   //   rows: 2,
@@ -29,14 +31,30 @@ const clientsGallery = new Swiper(".clients-slider", {
   },
 });
 const horses = new Swiper(".horses-slider", {
-  modules: [Navigation, Pagination, Grid, FreeMode],
+  modules: [Navigation, Pagination],
   freeMode: true,
-  slidesPerView: 1.5,
+  slidesPerView: 5,
+  initialSlide: 2,
+  centeredSlides: true,
   // grid: {
   //   fill: "row",
   //   rows: 2,
   // },
-  // spaceBetween: 10,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+const reviews = new Swiper(".reviews-slider", {
+  modules: [Navigation, Pagination],
+  slidesPerView: 2,
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
   },

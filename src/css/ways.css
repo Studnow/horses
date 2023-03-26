@@ -1,25 +1,33 @@
 .bg-ways {
-  background-image: url(/assets/img/mid/ways/bg-ways/bg-full/bg-full-ways.webp);
+  /* background-image: url(/assets/img/mid/ways/bg-ways/bg-full/bg-full-ways.webp); */
   @apply bg-no-repeat bg-cover bg-center min-h-screen py-10;
 }
+
 .ways {
   @apply max-w-screen-xmd mx-auto flex flex-col items-center;
 }
+
 .ways-cards {
   @apply w-full my-8;
 }
-.ways-cards .card {
-  @apply w-80 bg-base-100 mb-4 mt-8 rounded-none items-end;
+
+.ways-cards .card, .horses .card {
+  @apply w-80 bg-base-100 mb-4 mt-8 rounded-none items-end shadow-md;
 }
-.ways-cards figure {
+
+.ways-cards figure,
+.horses figure {
   @apply p-6 relative -top-12;
 }
+
 .ways-cards .card-body {
   @apply px-10 py-6 relative items-center -top-12;
 }
+
 .ways-cards .card-title {
   @apply text-center;
 }
+
 .ways-cards p {
   @apply flex;
 }

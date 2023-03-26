@@ -1,0 +1,15 @@
+.horses {}
+
+.horses-slider .card-body {
+  @apply items-center relative -top-16;
+}
+
+.horses .swiper-slide {
+  @apply opacity-40 cursor-default;
+}
+
+.horses .swiper-slide-prev,
+.horses .swiper-slide-active,
+.horses .swiper-slide-next {
+  @apply opacity-100 top-0;
+}

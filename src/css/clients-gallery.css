@@ -1,22 +1,21 @@
 .clients-gallery {
-  @apply max-w-screen-xmd mx-auto;
+  @apply py-8;
 }
 
 .clients-slider {
-  @apply w-full h-full mx-auto;
+  @apply w-full h-full;
 }
 
-.swiper-wrapper {
-  @apply !h-[70vh];
+.clients-slider .swiper-wrapper {
+  @apply !h-[50vh];
 }
 
 .swiper-slide {
-  /* height: calc((100% - 30px) / 2) !important; */
   @apply text-center flex justify-center items-center !px-1;
 }
 
 .slide-pic {
-  @apply mb-4 max-h-max;
+  @apply mb-2 max-h-max;
 }
 
 .slide-pic-w {
@@ -42,5 +41,5 @@
   @apply font-bold text-primary-content;
 }
 .gallery-nav-bot {
-  @apply relative h-6;
+  @apply relative h-6 my-8;
 }

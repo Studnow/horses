@@ -1,0 +1,13 @@
+.feedback {
+  background-image: url(/assets/img/mid/feedback/bg-fback/bg-fback.webp);
+  @apply bg-no-repeat bg-cover bg-center relative;
+}
+.feedback-inner {
+  @apply relative h-screen flex justify-end items-center;
+}
+.feedback-form {
+  @apply bg-base-100 px-14 py-8 relative flex flex-col justify-between items-center;
+}
+.inputs-wrapper {
+  @apply flex flex-col gap-2 mb-4;
+}

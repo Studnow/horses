@@ -12,6 +12,10 @@ module.exports = {
       screens: {
         xmd: "1170px",
       },
+      backgroundImage: {
+        contacts: "url('/assets/img/mid/contacts/bg-contacts/bg-contacts.webp')",
+        ways: "url('/assets/img/mid/ways/bg-ways/bg-full/bg-full-ways.webp')",
+      },
     },
   },
   daisyui: {

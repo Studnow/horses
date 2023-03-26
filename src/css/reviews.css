@@ -1,0 +1,27 @@
+.reviews {
+  @apply max-w-screen-xmd mx-auto;
+}
+
+.reviews .card-body {
+  @apply gap-4 text-left;
+}
+
+.reviews-slider .gallery-nav-bot {
+  @apply mt-16;
+}
+
+.signature {
+  @apply flex justify-between gap-4;
+}
+
+.avatar-info {
+  @apply w-full self-start;
+}
+
+.avatar-title {
+  @apply font-bold text-left mb-2;
+}
+
+.avatar-socials {
+  @apply flex gap-2;
+}

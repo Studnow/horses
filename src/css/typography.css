@@ -3,7 +3,7 @@
 }
 
 .block-title {
-  @apply text-3xl font-semibold text-center my-4;
+  @apply text-3xl font-semibold text-center my-8;
 }
 .block-subtitle {
   @apply text-xl font-normal text-center my-8;
